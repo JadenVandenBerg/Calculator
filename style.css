@@ -1,0 +1,105 @@
+body {
+	background: hsl(0, 0%, 28%);
+}
+#main {
+	width: 100%;
+	height: 100%;
+}
+#answer {
+	width:  80%;
+	height:  30px;
+	margin: auto;
+	padding: 20px;
+	border: 2px solid black;
+	border-radius: 5px;
+	margin-bottom: 5px;
+	text-align: right;
+	background: #e1e1e1;
+}
+#calculator_container {
+	background: white;
+	width: 85%;
+	margin: auto;
+	border:  2px solid black;
+	border-radius: 5px;
+}
+.calculator_num {
+	width: 20%;
+	cursor: pointer;
+	text-align: center;
+	border:  2px solid black;
+	border-radius: 5px;
+	background: darkgrey;
+	height: 50px;
+	color: white;
+}
+.calculator_symbol {
+	width: 20%;
+	cursor: pointer;
+	text-align: center;
+	border:  2px solid black;
+	border-radius: 5px;
+	background: grey;
+	height: 50px;
+	color: white;
+}
+.calculator_clear {
+	cursor: pointer;
+	text-align: center;
+	border:  2px solid black;
+	border-radius: 5px;
+	background: silver;
+	height: 50px;
+	color: white;
+}
+select {
+	border: transparent;
+	background: transparent;
+	color: white;
+}
+select option {
+	color: black;
+}
+#functionsMenu {
+	overflow-y: scroll;
+	position: absolute;
+	z-index: 50;
+	width: 300px;
+	height: 200px;
+	border: 2px solid black;
+	border-radius: 10px;
+	background: #404040;
+	left: calc(50% - 150px);
+	top: calc(30% - 100px);
+}
+#functionsMenu table {
+	width: 300px;
+}
+#functionsMenu .calculator_symbol {
+	width: 50% !important;
+	padding: 1px;
+}
+#solveMenu {
+	overflow-y: scroll;
+	position: absolute;
+	z-index: 50;
+	width: 300px;
+	height: 200px;
+	border: 2px solid black;
+	border-radius: 10px;
+	background: #404040;
+	left: calc(50% - 150px);
+	top: calc(30% - 100px);
+}
+#solveMenu table {
+	width: 300px;
+}
+#solveMenu .calculator_symbol {
+	width: 50% !important;
+	padding: 1px;
+}
+.menu_heading {
+	text-align: center;
+	height: 20px;
+	color: white;
+}

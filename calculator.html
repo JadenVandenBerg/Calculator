@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Calculator</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div id="main">
+      <table id="calculator_container">
+        <tr>
+          <td colspan="5" id="answer"></td>
+        </tr>
+        <tr>
+          <td id="solve" class="calculator_symbol">SOLVE</td>
+          <td id="idk" class="calculator_num">IDK</td>
+          <td id="idk" class="calculator_num">IDK</td>
+          <td id="idk" class="calculator_symbol">IDK</td>
+          <td id="idk" class="calculator_clear">IDK</td>
+        </tr>
+        <tr>
+          <td id="seven" class="calculator_num">7</td>
+          <td id="eight" class="calculator_num">8</td>
+          <td id="nine" class="calculator_num">9</td>
+          <td id="division" class="calculator_symbol">/</td>
+          <td id="clear" class="calculator_clear">CE</td>
+        </tr>
+        <tr>
+          <td id="four" class="calculator_num">4</td>
+          <td id="five" class="calculator_num">5</td>
+          <td id="six" class="calculator_num">6</td>
+          <td id="multiply" class="calculator_symbol">*</td>
+          <td id="bracketLeft" class="calculator_symbol">(</td>
+        </tr>
+        <tr>
+          <td id="one" class="calculator_num">1</td>
+          <td id="two" class="calculator_num">2</td>
+          <td id="three" class="calculator_num">3</td>
+          <td id="minus" class="calculator_symbol">-</td>
+          <td id="bracketRight" class="calculator_symbol">)</td>
+        </tr>
+        <tr>
+          <td id="zero" class="calculator_num">0</td>
+          <td id="decimal" class="calculator_num">.</td>
+          <td id="equals" class="calculator_symbol">=</td>
+          <td id="plus" class="calculator_symbol">+</td>
+          <td id="functions" class="calculator_symbol">FUNCTION</td>
+        </tr>
+      </table>
+    </div>
+    <div id="functionsMenu">
+      <table>
+        <tr><td colspan="2" id="closeFunc" class="calculator_clear">Functions (close)</td></tr>
+        <tr>
+          <td id="exponent" class="calculator_symbol">**</td>
+          <td id="sqrt" class="calculator_symbol">Math.sqrt(</td>
+        </tr>
+        <tr>
+          <td id="sine" class="calculator_symbol">Math.sin(</td>
+          <td id="cosine" class="calculator_symbol">Math.cos(</td>
+        </tr>
+        <tr>
+          <td id="tangent" class="calculator_symbol">Math.tan(</td>
+          <td id="asine" class="calculator_symbol">Math.asin(</td>
+        </tr>
+        <tr>
+          <td id="acosine" class="calculator_symbol">Math.acos(</td>
+          <td id="atangent" class="calculator_symbol">Math.atan(</td>
+        </tr>
+        <tr>
+          <td id="logten" class="calculator_symbol">Math.log10(</td>
+          <td id="logx" class="calculator_symbol">Math.log</td>
+        </tr>
+      </table>
+    </div>
+    <div id="solveMenu">
+      <table>
+        <tr><td colspan="2" id="solveClose" class="calculator_clear">Solve (close)</td></tr>
+        <tr>
+        <tr><td colspan="2" class="menu_heading">Functions</td></tr>
+        <tr>
+          <td id="linear" class="calculator_num">Linear (y = mx + b)</td>
+        </tr>
+        <tr>
+          <td id="quadratic" class="calculator_num">Quadratic (y = ax<sup>2</sup> + bx + c)</td>
+        </tr>
+        <tr>
+          <td id="cubic" class="calculator_num">Cubic (y = ax<sup>3</sup> + bx<sup>2</sup> + cx + d)</td>
+        </tr>
+        <tr>
+          <td id="exponential" class="calculator_num">Exponential (y = a<sup>(x + b)</sup> + c)</td>
+        </tr>
+      </table>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
